@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    width: 33.3%;
+    padding: 10px;
+}
+img{
+    width: 100%;
+}
+.col-card{
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 3px;
+}
+h3,p{
+    padding:10px;
+}
+p{
+    padding-bottom: 20px;
+}
+i{
+    color:darkgreen;
+}
+.icon-row{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 200;
+}
+span{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.percent i{
+    color: #8a584b;
+}
+.percent{
+    padding:10px;
+    border-top: 1px solid #e9e9eb;
+    margin-top: 14px;
+    color: #8a584b;
+}
+.percent span{
+
+    padding-left: 10px;
+    font-size: 14px;
+}
+.items{
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	color: gray;
+	align-items: baseline;
+}
+.text{
+	text-align: center;
+	border: none;
+	width:10%;
+	font-size: large;
+}
+
+
+
+.addCart{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ccc;
+    padding: 20px 0 0;
+    visibility: hidden;
+}
+.cartLabel{
+    font-size: 14px;
+    padding: 4px 0 0;
+    color:hotpink;
+    font-weight: 600;
+}
+.cartInp{
+    border: 1px solid #ccc;
+}
+input{
+    width: 20px;
+    
+    text-align:center;
+}
+input:focus{
+    outline: none;
+}
+button{
+    border: none;
+    font-size: 12px;
+    background-color: #fff;
+    padding: 5px;
+    position: relative;
+    top: 0px;
+}
+.col-card:hover .addCart{
+    transition: all 0.5s linear;
+    visibility: visible;
+}
+.col-cards:hover{
+    border: 1px solid #ccc;
+    box-shadow: 0 0 2px #ccc;
+    padding: 15px;
+}
+.col-3{
+    color: red;
+    font-weight: 600;
+}
